@@ -1,1 +1,141 @@
+*/ Html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aditya Kotame - Portfolio</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Aditya Kotame</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.png" alt="Aditya Kotame" style="height: 90px;">
+        <p>
+            Hello, I'm Your Name, a passionate web developer and designer. I love creating
+            beautiful and functional websites. With a strong foundation in HTML, CSS,
+            and JavaScript, I strive to bring ideas to life on the web.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Project - Personal Portfolio</h3>
+            <p>
+              "Personal Portfolio" is a web development project showcasing my skills, experiences, and projects. With a clean and modern design, the portfolio serves as an interactive platform to introduce myself and my journey in the world of web development.
+          
+              Leveraging the power of HTML and  CSS the portfolio features a user-friendly interface that seamlessly guides visitors through various sections. The 'About Me' section offers a glimpse into my personality and passion for web development, complemented by a visually appealing image.
+          
+              The 'Skills' section outlines my key areas of expertise, demonstrating proficiency in HTML5, CSS3 and responsive design. Each skill is presented with a sleek and minimalistic style, reflecting a commitment to simplicity and functionality.
+          
+              In the 'Projects' section, a curated selection of my work takes center stage. Project titles are accompanied by engaging descriptions, offering insights into the problem-solving approach, creativity, and technical skills applied to each endeavor. Project images provide a visual representation of the outcomes, creating an immersive experience for the viewer.
+          
+              To provide additional depth, the 'Resume' section offers a convenient option to download my resume in PDF format. This feature enhances accessibility and ensures that visitors have quick access to a comprehensive overview of my professional background.
+          
+              For those interested in connecting, the 'Contact' section displays my email address and phone number, fostering a direct line of communication. The information is presented with clarity and simplicity, promoting ease of interaction.
+          
+              The project is a testament to my commitment to web development excellence, incorporating both aesthetics and functionality. It serves as an evolving canvas, reflecting my growth, achievements, and dedication to creating impactful digital experiences."
+          </p>
+        </div>
+
+    </section>
+
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="resume.pdf" target="_blank" download>here</a>.</p>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: adityakotame17@email.com</p>
+        <p>Phone: 9665971885</p>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Aditya Kotame. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+*/ CSS */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}
 
